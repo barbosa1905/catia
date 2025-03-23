@@ -10932,8 +10932,8 @@ p {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10950,8 +10950,9 @@ p {
     margin-right: 0;
   }
 }
-
+.masthead-headingtext-uppercase,
 header.masthead
+
  
 {
   padding-top: 10.5rem;
@@ -10984,8 +10985,19 @@ header.masthead .masthead-subheading {
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-header.masthead .masthead-heading {
+header.masthead .masthead-headingtext-uppercase {
   /* font-style: italic; */
+  
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .masthead-heading {
+  /*font-style: italic; */
+  
   font-size: 70px;
   font-weight: 700;
   line-height: 3.25rem;
